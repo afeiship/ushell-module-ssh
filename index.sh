@@ -14,6 +14,9 @@ alias ssh-pbcopy='cat ~/.ssh/id_rsa.pub | pbcopy';
 alias ssh-test-git='ssh -T git@github.com';
 alias ssh-test-osc='ssh -T git@git.oschina.net';
 
+## ssh start
+alias ssh-start='eval `ssh-agent -s`';
+
 ## add to cache:
 alias ssh-add-git='ssh-add ~/.ssh/id_rsa.github.com';
 alias ssh-add-osc='ssh-add ~/.ssh/id_rsa.oschina.net';
