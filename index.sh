@@ -3,6 +3,12 @@
 ## path:
 ROOT_PATH=$(dirname $BASH_SOURCE);
 
+## start ssh-agent:
+exec /usr/bin/ssh-agent $SHELL;
+ssh-add;
+ssh-add ~/.ssh/id_rsa.github.com;
+ssh-add ~/.ssh/id_rsa.oschina.net;
+
 ## base ssh address:
 alias ssh-cmsn='ssh root@58.221.61.241';
 alias ssh-zgmw='ssh root@118.178.20.114';
