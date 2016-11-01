@@ -26,5 +26,12 @@ alias ssh-start='eval `ssh-agent -s`';
 alias ssh-add-git='ssh-add ~/.ssh/id_rsa.github.com';
 alias ssh-add-osc='ssh-add ~/.ssh/id_rsa.oschina.net';
 
+## alias sshd
+alias sshd-start='service sshd start';
+alias sshd-stop='service sshd stop';
+alias sshd-status='service sshd status';
+alias sshd-reload='service sshd reload';
+alias sshd-restart='service sshd restart';
+
 ## chmod id_rsa files:
 alias ssh-chmod-all='sudo chmod 600 ~/.ssh/id_rs* && sudo chmod 644 ~/.ssh/known_hosts';
