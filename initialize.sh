@@ -37,6 +37,6 @@ ssh-add ~/.ssh/id_rsa.zaijiadd.com;
 
 
 ##Test git config:
-ssh -T git@git.oschina.net;
-ssh -T git@github.com;
-ssh -T git@git.zaijiadd.com;
+# ssh -T git@git.oschina.net;
+# ssh -T git@github.com;
+# ssh -T git@git.zaijiadd.com;
