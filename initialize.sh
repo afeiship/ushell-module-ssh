@@ -14,8 +14,9 @@ sudo chmod 755 ~/.ssh;
 
 
 ## create ssh_pubkey for every git site:
-touch ~/.ssh/config;
+cp $ROOT_PATH/.ssh/config ~/.ssh/;
 chmod 600 ~/.ssh/config;
+
 
 ##create id_rsa
 ssh-keygen
@@ -27,13 +28,13 @@ ssh-keygen -t rsa -f ~/.ssh/id_rsa.oschina.net -C "Key for git.oschina.net";
 ssh-keygen -t rsa -f ~/.ssh/id_rsa.github.com -C "Key for git.github.com";
 
 ##create git.zaijiadd.com:
-ssh-keygen -t rsa -f ~/.ssh/id_rsa.zaijiadd.com -C "Key for git.zaijiadd.com";
+# ssh-keygen -t rsa -f ~/.ssh/id_rsa.zaijiadd.com -C "Key for git.zaijiadd.com";
 
 
 ##add to cache:
 ssh-add ~/.ssh/id_rsa.oschina.net;
 ssh-add ~/.ssh/id_rsa.github.com;
-ssh-add ~/.ssh/id_rsa.zaijiadd.com;
+# ssh-add ~/.ssh/id_rsa.zaijiadd.com;
 
 
 ##Test git config:
