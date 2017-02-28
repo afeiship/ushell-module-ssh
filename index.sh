@@ -16,6 +16,9 @@ alias ssh-yqp='ssh root@139.224.18.91';
 alias ssh-yqp2='ssh root@101.201.153.87';
 alias ssh-aly='ssh root@106.14.39.232';
 
+## dacang:
+alias ssh-dctest='ssh root@192.168.10.251';
+
 alias ssh-pbcopy='cat ~/.ssh/id_rsa.pub | pbcopy';
 
 ## test git:
