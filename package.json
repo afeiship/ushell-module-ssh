@@ -1,0 +1,23 @@
+{
+  "name": "ushell-module-ssh",
+  "version": "0.0.1",
+  "description": "Unix like shell module for ssh.",
+  "main": "index.sh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeiship/ushell-module-ssh.git"
+  },
+  "keywords": [
+    "ushell",
+    "unix",
+    "shell",
+    "system",
+    "infomation"
+  ],
+  "author": "afei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afeiship/ushell-module-ssh/issues"
+  },
+  "homepage": "https://github.com/afeiship/ushell-module-ssh#readme"
+}
