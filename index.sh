@@ -4,9 +4,11 @@
 ROOT_PATH=$(dirname $BASH_SOURCE);
 
 ## start ssh-agent:
-eval `ssh-agent -s`>/dev/null 2>/dev/null;
-ssh-add ~/.ssh/id_rsa.github.com >/dev/null 2>/dev/null;
-ssh-add ~/.ssh/id_rsa.oschina.net >/dev/null 2>/dev/null;
+if [ -z "$SSH_AUTH_SOCK" ] ; then
+    eval `ssh-agent -s`>/dev/null 2>/dev/null;
+    ssh-add ~/.ssh/id_rsa.github.com >/dev/null 2>/dev/null;
+    ssh-add ~/.ssh/id_rsa.oschina.net >/dev/null 2>/dev/null;
+fi
 
 ## base ssh address:
 alias ssh-cmsn='ssh root@58.221.61.241';
