@@ -2,6 +2,10 @@
 ## path:
 ROOT_PATH=$(dirname $BASH_SOURCE);
 
+## chmod for all id_rsa*
+chmod 600 id_rsa*
+
+## for single:
 sudo chmod 600 ~/.ssh/id_rsa;
 sudo chmod 600 ~/.ssh/id_rsa.pub;
 # sudo chmod 644 ~/.ssh/known_hosts;
