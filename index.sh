@@ -18,6 +18,7 @@ alias ssh-yqp='ssh root@139.224.18.91';
 alias ssh-yqp2='ssh root@101.201.153.87';
 alias ssh-aly='ssh root@106.14.39.232';
 alias ssh-tradewow='ssh root@120.27.13.225';
+alias ssh-copyid='ssh-copy-id -i ~/.ssh/id_rsa '
 
 ## dacang:
 alias ssh-dctest='ssh root@192.168.10.251';
