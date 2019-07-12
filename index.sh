@@ -11,23 +11,12 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
 fi
 
 ## base ssh address:
-alias ssh-cmsn='ssh root@58.221.61.241';
-alias ssh-zgmw='ssh root@118.178.20.114';
-alias ssh-zjdd='ssh root@121.43.149.246';
-alias ssh-yqp='ssh root@139.224.18.91';
-alias ssh-yqp2='ssh root@101.201.153.87';
-alias ssh-aly='ssh root@106.14.39.232';
-alias ssh-tradewow='ssh root@120.27.13.225';
 alias ssh-copyid='ssh-copy-id -i ~/.ssh/id_rsa '
-
-## dacang:
-alias ssh-dctest='ssh root@192.168.10.251';
-
 alias ssh-pbcopy='cat ~/.ssh/id_rsa.pub | pbcopy';
 
 ## test git:
 alias ssh-test-git='ssh -T git@github.com';
-alias ssh-test-osc='ssh -T git@git.oschina.net';
+alias ssh-test-gitee='ssh -T git@git.oschina.net';
 
 ## ssh start
 alias ssh-start='eval `ssh-agent -s`';
