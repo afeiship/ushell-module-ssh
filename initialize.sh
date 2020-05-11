@@ -37,6 +37,11 @@ ssh-keygen -t rsa -f ~/.ssh/id_rsa.github.com -C "Key for git.github.com";
 ##create gitlab.finxos.com
 # ssh-keygen -t rsa -f ~/.ssh/id_rsa.gitlab.finxos.com -C "Key for gitlab.finxos.com";
 
+## create for saybot
+# ssh-keygen -t rsa -f ~/.ssh/id_rsa.saybot.net -C "Key for git.saybot.net";
+
+
+
 
 ##add to cache:
 ssh-add ~/.ssh/id_rsa.oschina.net;
@@ -50,3 +55,4 @@ ssh-add ~/.ssh/id_rsa.github.com;
 # ssh -T git@github.com;
 # ssh -T git@git.zaijiadd.com;
 # ssh -T git@gitlab.finxos.com;
+# ssh -T git@git.saybot.net
