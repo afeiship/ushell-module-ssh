@@ -1,6 +1,6 @@
 {
-  "name": "ushell-module-ssh",
-  "version": "0.0.1",
+  "name": "@feizheng/ushell-module-ssh",
+  "version": "1.0.0",
   "description": "Unix like shell module for ssh.",
   "main": "index.sh",
   "repository": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/afeiship/ushell-module-ssh/issues"
   },
-  "homepage": "https://github.com/afeiship/ushell-module-ssh#readme"
+  "homepage": "https://github.com/afeiship/ushell-module-ssh#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
