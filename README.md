@@ -3,7 +3,7 @@
 
 ## installation
 ```shell
-npm i -S @feizheng/ushell-module-ssh
+npm i -S @jswork/ushell-module-ssh
 ```
 
 ## resources

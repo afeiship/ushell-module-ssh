@@ -1,5 +1,5 @@
 {
-  "name": "@feizheng/ushell-module-ssh",
+  "name": "@jswork/ushell-module-ssh",
   "version": "1.0.0",
   "description": "Unix like shell module for ssh.",
   "main": "index.sh",
@@ -9,10 +9,11 @@
   },
   "keywords": [
     "ushell",
+    "ssh",
     "unix",
-    "shell",
-    "system",
-    "infomation"
+    "alias",
+    "command",
+    "cli"
   ],
   "author": "afei",
   "license": "MIT",
