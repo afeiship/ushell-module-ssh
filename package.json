@@ -1,11 +1,14 @@
 {
   "name": "@jswork/ushell-module-ssh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unix like shell module for ssh.",
   "main": "index.sh",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/afeiship/ushell-module-ssh.git"
+  },
+  "scripts": {
+    "release": "release-it"
   },
   "keywords": [
     "ushell",
