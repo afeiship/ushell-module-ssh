@@ -1,6 +1,6 @@
 {
   "name": "@jswork/ushell-module-ssh",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unix like shell module for ssh.",
   "main": "index.sh",
   "repository": {
