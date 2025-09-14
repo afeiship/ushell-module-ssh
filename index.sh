@@ -11,8 +11,8 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
 fi
 
 ## base ssh address:
-alias ssh-cid='ssh-copy-id -i ~/.ssh/id_rsa.pub';
 alias ssh-pbcopy='cat ~/.ssh/id_rsa.pub | pbcopy';
+alias cid='ssh-copy-id -i ~/.ssh/id_rsa.pub';
 
 ## test git:
 alias ssh-test-git='ssh -T git@github.com';
